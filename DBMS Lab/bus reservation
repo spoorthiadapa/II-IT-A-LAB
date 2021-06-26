@@ -1,0 +1,20 @@
+create database IT1250;
+use IT1250;
+show tables;
+create table Bus(busno int primary key, start_point varchar(20), end_point varchar(20));
+insert into Bus values(110,"adilabad","nirmal"),(210,"nirmal","hyderabad"),(310,"hyderabad","bangalore");
+update Bus set end_point="armoor" where end_point="hyderabad";
+select distinct start_point from Bus;
+alter table Bus add color varchar(5);
+update Bus set color="green";
+select * from Bus;
+
+create table Ticket(t_id int primary key, t_date varchar(20),t_amount int);
+insert into Ticket values(123,"20/06/2021",100),(678,"21/06/2021",150),(456,"4/07/2021",300);
+alter table Ticket change t_amount total int;
+select * from Ticket;
+
+create table Passenger(p_id int primary key,p_name varchar(20),p_mbl varchar(10),p_email varchar(100));
+insert into Passenger values(1,"latha","909876","latha@gmail.com"),(2,"geetha","98765","geetha@gmail.com"),(3,"rupa","780.3","rupa@gmail.com");
+alter table Passenger modify p_mbl int;
+select * from Passenger;
