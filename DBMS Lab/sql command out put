@@ -1,0 +1,21 @@
+id	title
+1	Hello
+BusNo	Source	Destination
+TS01	Hyderabad	vizag
+TS02	Banglore	vijayavada
+TS03	Delhi	Hyderabad
+TS04	pune	Hyderabad
+PNo	PName	PAge	PSex
+1250	Spoorthi	20	Female
+1251	riya	19	Female
+1253	shishira	20	Female
+Ticket_No	Journey_date	Age	Sex	Source	Arrival_time	Destination	Dep_time
+1	2021-06-26	19	F	HYD	9:00	MUM	3:00
+PNo	Journey_date	No_of_seats	Address	Contact_No	Status
+1250	2021-06-26	2	teachers colony	234576	R
+Tables_in_bus_reservation_system
+Bus
+Cancellation
+Reservation
+Ticket
+passenger
