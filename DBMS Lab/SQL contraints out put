@@ -1,0 +1,15 @@
+roll_num	name
+5	sneha
+ssn	emp_name	age
+1250	spoorthi	20
+1251	riya	19
+1254	supraja	NULL
+1256	soumya	19
+Event_id	Event_name	coord_id
+101	singing	1250
+102	Drama	1251
+103	Dance	1254
+ht_num	name
+1250	Shraya
+1251	sweety
+1254	Srinija
