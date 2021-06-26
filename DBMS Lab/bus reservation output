@@ -1,0 +1,16 @@
+start_point
+adilabad
+nirmal
+hyderabad
+busno	start_point	end_point	color
+110	adilabad	nirmal	green
+210	nirmal	armoor	green
+310	hyderabad	bangalore	green
+t_id	t_date	total
+123	20/06/2021	100
+678	21/06/2021	150
+456	4/07/2021	300
+p_id	p_name	p_mbl	p_email
+1	latha	909876	latha@gmail.com
+2	geetha	98765	geetha@gmail.com
+3	rupa	780	rupa@gmail.com
