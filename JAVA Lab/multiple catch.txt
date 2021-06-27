@@ -1,0 +1,19 @@
+public class Main
+{
+	public static void main(String[] args) {
+	    try{
+	        int[] a = new int[5];
+	        a[6]=43;
+	    }
+	    catch(ArithmeticException e){
+	        System.out.println(e);
+	    }
+	    catch(ArrayIndexOutOfBoundsException e){
+	        System.out.println(e);
+	    }
+	    catch(Exception e){
+	        System.out.println(e);
+	    }
+	}
+}
+
