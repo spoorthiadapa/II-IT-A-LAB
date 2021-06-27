@@ -1,0 +1,46 @@
+import java.util.*;
+class First extends Thread{
+    public void run(){
+        Random r = new Random();
+        int a = r.nextInt(100);
+        System.out.println("random number :"+a);
+        Second s = new Second(a);
+        Third t = new Third(a);
+        if(a%2==0)
+          s.start();
+        else 
+          t.start();
+        try{
+            Thread.sleep(1000);
+        }
+        catch(InterruptedException e){
+            System.out.println(e);
+        }
+          
+    }
+}
+class Second extends Thread{
+    int x;
+    Second(int n){
+        x=n;
+    }
+    public void run(){
+        System.out.println("square of a number :"+(x*x));
+    }
+}
+class Third extends Thread{
+    int x;
+    Third(int n){
+        x=n;
+    }
+    public void run(){
+        System.out.println("square of a number :"+(x*x*x));
+    }
+}
+public class Main
+{
+	public static void main(String[] args) {
+		First f = new First();
+		f.start();
+	}
+}
