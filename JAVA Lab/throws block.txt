@@ -1,0 +1,18 @@
+import java.io.*;  
+class A1{  
+ void method()throws IOException{  
+  throw new IOException(" the device error");  
+ }  
+}  
+public class Main
+{
+	public static void main(String[] args) {
+	    try{
+	       A1 a = new A1();
+	       a.method();
+	    }
+	    catch(Exception e){
+	        System.out.println(e);
+	    }
+	}
+}
