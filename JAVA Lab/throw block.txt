@@ -1,0 +1,13 @@
+public class Main
+{
+	    public static void valid(int n){
+	        if(n<18)
+	          throw new ArithmeticException("not valid age for vaccination");
+	        else 
+	          System.out.println("welcome to vaccination");
+	    }
+	    public static void main(String[] args) {
+	       valid(79);
+	       System.out.println("rest of code to be executed");
+	   }
+}
