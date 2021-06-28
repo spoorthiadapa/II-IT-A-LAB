@@ -1,0 +1,42 @@
+import java.util.*;
+abstract class Shape{
+    abstract void printArea();
+}
+class Rectangle extends Shape{
+    void printArea(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter values for rectangle area:");
+        int l=sc.nextInt();
+        int b=sc.nextInt();
+        System.out.println("area of rectangle : "+(l*b));
+    }
+}
+class Triangle extends Shape{
+    void printArea(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter values for triangle area:");
+        int b=sc.nextInt();
+        int h=sc.nextInt();
+        System.out.println("area of triangle : "+(b*h*0.5));
+    }
+}
+class Circle extends Shape{
+    void printArea(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter values for circle area:");
+        int r=sc.nextInt();
+        System.out.println("area of circle : "+(3.14*r*r));
+    }
+}
+public class Main
+{
+	public static void main(String[] args) {
+	    Rectangle r = new Rectangle();
+	    r.printArea();
+	    Triangle t = new Triangle();
+	    t.printArea();
+	    Circle c = new Circle();
+	    c.printArea();
+	    
+	}
+}
