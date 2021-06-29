@@ -1,0 +1,21 @@
+
+class A{
+    public void sum(int a,int b){
+        System.out.println("addition of two numbers: "+(a+b));
+        
+    }
+}
+class B extends A{
+    public void mult(int a,int b){
+        System.out.println("multiplication of two numbers: "+(a*b));
+    }
+}
+
+public class Main
+{
+	public static void main(String[] args) {
+		B b = new B();
+		b.sum(1,2);
+		b.mult(1,2);
+	}
+}
