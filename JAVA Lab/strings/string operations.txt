@@ -1,0 +1,25 @@
+//string operations
+public class Main
+{
+	public static void main(String[] args) {
+		String name = "  hello welcome to java";
+		int a=name.length();
+		String s1=name.concat(" programming");
+		char ch=name.charAt(7);
+		boolean s2=name.equals("hello");
+		System.out.println("length:"+a);
+		System.out.println("after concating:"+s1);
+		System.out.println("character at specified position:"+ch);
+		System.out.println("comparing strings:"+s2);
+		System.out.println("startswith: "+name.startsWith("hell"));
+		System.out.println("endswith: "+name.endsWith("java"));
+		System.out.println("indexof: "+name.indexOf("j"));
+		System.out.println("lastindexof: "+name.lastIndexOf("to"));
+		System.out.println("substring: "+name.substring(2,5));
+		System.out.println("lowercase: "+name.toLowerCase());
+		System.out.println("uppercase: "+name.toUpperCase());
+		System.out.println("trim operation: "+name.trim());
+		System.out.println("replace: "+name.replace('w','a'));  
+	}
+}
+
