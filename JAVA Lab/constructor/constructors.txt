@@ -1,0 +1,14 @@
+public class Main
+{
+    Main(){
+        System.out.println("this is Main class constructor");
+    }
+    Main(int a,int b){
+        System.out.println("parameterized constructor");
+        System.out.println("Addition: "+(a+b));
+    }
+	public static void main(String[] args) {
+		Main obj = new Main();
+		Main obj1 = new Main(5,8);
+	}
+}
