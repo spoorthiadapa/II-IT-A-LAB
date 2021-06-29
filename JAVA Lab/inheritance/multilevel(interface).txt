@@ -1,0 +1,21 @@
+interface Bank{
+    void account_number();
+}
+interface Loan{
+    void get_ROI();
+}
+class Multi implements Bank,Loan{
+    public void account_number(){
+        System.out.println("details of account");
+    }
+    public void get_ROI(){
+        System.out.println("details of rate of interest");
+    }
+}
+public class Main{
+    public static void main(String args[]){
+        Multi m = new Multi();
+        m.account_number();
+        m.get_ROI();
+    }
+}
