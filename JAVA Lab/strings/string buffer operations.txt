@@ -1,0 +1,18 @@
+public class Main
+{
+	public static void main(String[] args) {
+		StringBuffer name = new StringBuffer("hello welcome to java");
+		System.out.println(name.append(" programming"));
+		System.out.println(name.insert(5," guys"));
+		System.out.println(name.replace(5,10," girls"));
+		System.out.println(name.delete(5,11));
+		System.out.println(name.capacity());
+		System.out.println(name.length());
+		System.out.println(name.charAt(4));
+		System.out.println(name.substring(5,18));
+		System.out.println(name.deleteCharAt(5));
+		System.out.println(name.indexOf("wel"));
+		System.out.println(name.lastIndexOf("hello"));
+		System.out.println(name.reverse());
+	}
+}
