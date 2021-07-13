@@ -1,0 +1,32 @@
+Tables_in_19WH1A1250
+tab1
+Maximum
+10
+Minimum
+7
+Average
+8.8
+total_sum
+44
+count(*)
+5
+hno	name
+1201	milky
+1202	bunny
+1204	priya
+hno	name	cgpa
+1205	vinny	7
+1203	sunny	8
+1202	bunny	9
+1201	milky	10
+1204	priya	10
+hno	name	cgpa
+1205	vinny	7
+1203	sunny	8
+1204	priya	10
+1201	milky	10
+1202	bunny	9
+Student_name
+milky
+bunny
+priya
