@@ -1,0 +1,14 @@
+import java.util.*;
+import java.lang.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc = new Scanner(System.in);
+	    char c = sc.next().charAt(0);
+	    char c1 = Character.toLowerCase(c);
+	    if(c1=='a' || c1=='e' || c1=='i' || c1=='o' || c1=='u')
+	       System.out.println("vowel character");
+	    else 
+	       System.out.println("consonant character");
+	}
+}
