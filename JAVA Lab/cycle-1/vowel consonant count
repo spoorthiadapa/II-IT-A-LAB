@@ -1,0 +1,22 @@
+import java.util.*;
+import java.lang.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc = new Scanner(System.in);
+	    System.out.print("enter the string: ");
+	    String s1=sc.nextLine();
+	    String s = s1.toLowerCase();
+	    int v=0,c=0;
+	    for(int i=0;i<s1.length();i++){
+	       char a = s.charAt(i);
+	       if(a=='a' || a=='e' || a=='i' || a=='o' || a=='u')
+	         v++;
+	       else
+	         c++;
+	    }
+	   System.out.println("vowels ocuurs "+v+" times");
+	   System.out.println("consonants ocuurs "+c+" times");
+
+	}
+}
